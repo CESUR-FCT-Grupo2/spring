@@ -22,11 +22,16 @@ public class Restaurante {
 	private String url_tri;
 	private long id_ubicaciones; //many to one
 	
-	Restaurante(){
-		
+	public Restaurante(){
+		nombre = "";
+		descripcion = "";
+		telefono = "";
+		url_img = "";
+		url_tri = "";
+		id_ubicaciones = 1;
 	}
 	
-	Restaurante(String nombre, String descripcion, String telefono, String url_img, String url_tri, long id_ubicaciones){
+	public Restaurante(String nombre, String descripcion, String telefono, String url_img, String url_tri, long id_ubicaciones){
 		this.nombre = nombre;
 		this.descripcion = descripcion;
 		this.telefono = telefono;

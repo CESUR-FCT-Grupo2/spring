@@ -1,4 +1,6 @@
 package com.apirest.app;
+import com.apirest.app.alojamiento.*;
+import com.apirest.app.main.*;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
