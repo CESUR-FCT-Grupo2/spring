@@ -1,4 +1,4 @@
-package com.apirest.app;
+package com.apirest.app.Cultura;
 
 import org.springframework.data.repository.CrudRepository;
 
@@ -9,7 +9,7 @@ import org.springframework.data.repository.CrudRepository;
 //This will be AUTO IMPLEMENTED by Spring into a Bean called restauranteRepository
 //CRUD refers Create, Read, Update, Delete
 
-public interface EventoRepository extends CrudRepository<Evento, Integer>{
+public interface CulturaRepository extends CrudRepository<Cultura, Integer>{
 
 }
 

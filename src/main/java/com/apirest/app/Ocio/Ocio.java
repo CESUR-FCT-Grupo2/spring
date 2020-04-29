@@ -1,4 +1,4 @@
-package com.apirest.app;
+package com.apirest.app.Ocio;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,7 +12,7 @@ import lombok.Data;
 
 @Data  //Lombok annotation, create getters, setters, hash, etc...
 @Entity // This tells Hibernate to make a table out of this class
-public class Cultura {
+public class Ocio {
 	
 	private @Id @GeneratedValue(strategy=GenerationType.AUTO) Long id;
 	private String nombre;
@@ -20,14 +20,14 @@ public class Cultura {
 	private String url_img;
 	private long id_ubicaciones; //many to one
 	
-	public Cultura(){
+	public Ocio(){
 		nombre = "";
 		descripcion = "";
 		url_img = "";
 		id_ubicaciones = 1;
 	}
 	
-	Cultura(String nombre, String descripcion, String url_img, long id_ubicaciones){
+	Ocio(String nombre, String descripcion, String url_img, long id_ubicaciones){
 		this.nombre = nombre;
 		this.descripcion = descripcion;
 		this.url_img = url_img;

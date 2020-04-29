@@ -1,4 +1,4 @@
-package com.apirest.app;
+package com.apirest.app.Restaurante;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

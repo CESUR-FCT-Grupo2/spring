@@ -1,4 +1,4 @@
-package com.apirest.app;
+package com.apirest.app.Alojamiento;
 
 import org.springframework.data.repository.CrudRepository;
 

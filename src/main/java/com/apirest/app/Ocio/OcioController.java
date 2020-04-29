@@ -1,4 +1,4 @@
-package com.apirest.app;
+package com.apirest.app.Ocio;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

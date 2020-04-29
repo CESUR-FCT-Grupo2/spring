@@ -1,4 +1,4 @@
-package com.apirest.app;
+package com.apirest.app.Ocio;
 
 import org.springframework.data.repository.CrudRepository;
 

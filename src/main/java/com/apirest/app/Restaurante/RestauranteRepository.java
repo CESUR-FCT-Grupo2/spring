@@ -1,8 +1,6 @@
-package com.apirest.app;
+package com.apirest.app.Restaurante;
 
 import org.springframework.data.repository.CrudRepository;
-
-import com.apirest.app.Restaurante;
 
 //------------------Repositorio donde se guardan los registros del modelo (restaurante)-----------------
 
